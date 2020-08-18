@@ -1,0 +1,5 @@
+#! /bin/sh
+
+export OUTPUT_NAME=lora_sniffer
+
+../../../../trunk/freestd32/configure stm32f103c8 main.c MCU_CLOCK_FREQ=3600000 CPUTAPID=0x1ba01477 SX127X_DEBUGMODE=1
